@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>adoptMe</title>
+    <meta name="description" content="Pet adoptation platform based in USA."/>
+    <meta name="keywords" content="adoptMe, adopt, adoption, pet, pets, nfo"/>
+    <link rel="shortcut icon" href="/assets/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <div id="menu-center">
+                <a id="logo" href="index.html">adoptMe</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="pets.html">pets</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <div id="burger">
+                    <div id="line1"></div>
+                    <div id="line2"></div>
+                    <div id="line3"></div>
+                </div>
+            </div>
+        </div>
+        <div id="burgerMenu">
+            <ul>
+                <a href="index.html"><li class="text">About</li></a>
+                <a href="pets.html"><li class="text">Pets</li></a>
+                <a href="contact.html"><li class="text">Contact</li></a>
+            </ul>
+        </div>
+        <div id="hContainer">
+            <video id="backVideo" autoplay muted loop>
+                <source src="/assets/video/far-back.mp4" type="video/mp4">
+                Sorry, we can't display this video on your browser.
+            </video>
+            <div id="txtContainer">
+                <h1>Make two lives better!</h1>
+                <a href="pets.html"><button class="btn">SEE PETS</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <img src="assets/photo/landing/girlDog.jpg" alt="girl playing with a dog"/>
+            <div class="boxTxt">
+                <h2 class="title">Who are we?</h2>
+                <p class="text">We&#39;re AdoptMe, a non-profit organization located in Milwaukee, Wisconsin. In 2018, a group of volunteers founded our organization so we could come together to find homes for animals in need. Since then, we have found homes for over 4000 pets. Our mission is to protect animals and to find loving homes for each one of them.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxTxt">
+                <h2 class="title">Want to put a pet for adoption?</h2>
+                <p class="text">If for some reason you are not able to take care of your pet anymore, don&#39;t hesitate to contact us via our contact form! Send us photos of the pet you want to put up for an adoption and as well as information on your pet&#39;s health status, information you think is relevant and your contact. We will be happy to find a loving home for your pet!</p>
+            </div>
+            <img src="assets/photo/landing/dogKid2.jpg" alt="toddler kid playing with a dog"/>
+        </div>
+    </main>
+    <footer>
+        <div id="fLogoHolderX"> <!--For mobile layout-->
+            <a id="logo" href="index.html">adoptMe</a>
+        </div>
+        <div id="fBox1">
+            <div id="socialsX"> <!--For mobile layout-->
+                <a href="https://www.instagram.com/" class="text"> <i class="zmdi zmdi-instagram"></i> </a>
+                <a href="https://www.facebook.com/" class="text"> <i class="zmdi zmdi-facebook-box"></i> </a>
+                <a href="https://www.twitter.com/" class="text"> <i class="zmdi zmdi-twitter-box"></i> </a>
+            </div>
+            <div id="socials">
+                <i class="zmdi zmdi-instagram"><a href="https://www.instagram.com/" class="text">instagram</a></i> 
+                <i class="zmdi zmdi-facebook-box"><a href="https://www.facebook.com/" class="text">facebook</a></i>
+                <i class="zmdi zmdi-twitter-box"><a href="https://www.twitter.com/" class="text">twitter</a></i>
+            </div>
+            <div id="fLogoHolder">
+                <a id="logo" href="index.html">adoptMe</a>
+            </div>
+            <div id="fNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="pets.html">pets</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="fBox2">
+            <p class="text">&copy PoparaDesign 2022</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

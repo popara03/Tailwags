@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>adoptMe - Contact</title>
+    <meta name="description" content="Giveaway your pet or contact us."/>
+    <meta name="keywords" content="contact, form, pet, find us, description"/>
+    <link rel="shortcut icon" href="/assets/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <div id="menu-center">
+                <a id="logo" href="index.html">adoptMe</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="pets.html">pets</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <div id="burger">
+                    <div id="line1"></div>
+                    <div id="line2"></div>
+                    <div id="line3"></div>
+                </div>
+            </div>
+        </div>
+        <div id="burgerMenu">
+            <ul>
+                <a href="index.html"><li class="text">About</li></a>
+                <a href="pets.html"><li class="text">Pets</li></a>
+                <a href="contact.html"><li class="text">Contact</li></a>
+            </ul>
+        </div>
+        <div id="hContainer">
+            <video id="frontVideo" autoplay muted loop>
+                <source src="/assets/video/close-front.mp4" type="video/mp4">
+                Sorry, we can't display this video on your browser.
+            </video>
+            <div id="txtContainer">
+                <h1>Let's connect!</h1>
+                <a href="#contactCon"><button class="btn">FORM</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="contactCon">
+            <form method="POST" name="contactForm" id="contactForm" data-netlify-recaptcha="true" netlify>
+                <div id="inlineName">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                </div>
+                <input type="email" id="email" name="email" placeholder="eMail" required>
+                <textarea name="msg" id="msg" cols="30" rows="7" placeholder="Message / Pet description" required></textarea>
+                <label for="pics">Photos (max 10MB)</label>
+                <input type="file" id="pics" name="pics">
+                <div data-netlify-recaptcha="true" id="captcha"></div>
+                <input type="submit" class="btn" value="Send">
+            </form>
+            <div id="mediaCon">
+                <div id="mediaText">
+                    <h2 class="title">stay in touch</h2>
+                    <p class="text">Feel free to send us a message on any of our platforms. You'll hear back from us in less than 24 hours!</p>
+                    <h2 class="title">find us on</h2>
+                </div>
+                <div id="mediaIcons">
+                    <a href="https://www.instagram.com/" class="text"> <i class="zmdi zmdi-instagram"></i> </a>
+                    <a href="https://www.facebook.com/" class="text"> <i class="zmdi zmdi-facebook-box"></i> </a>
+                    <a href="https://www.twitter.com/" class="text"> <i class="zmdi zmdi-twitter-box"></i> </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="fLogoHolderX"> <!--For mobile layout-->
+            <a id="logo" href="index.html">adoptMe</a>
+        </div>
+        <div id="fBox1">
+            <div id="socialsX"> <!--For mobile layout-->
+                <a href="https://www.instagram.com/" class="text"> <i class="zmdi zmdi-instagram"></i> </a>
+                <a href="https://www.facebook.com/" class="text"> <i class="zmdi zmdi-facebook-box"></i> </a>
+                <a href="https://www.twitter.com/" class="text"> <i class="zmdi zmdi-twitter-box"></i> </a>
+            </div>
+            <div id="socials">
+                <i class="zmdi zmdi-instagram"><a href="https://www.instagram.com/" class="text">instagram</a></i> 
+                <i class="zmdi zmdi-facebook-box"><a href="https://www.facebook.com/" class="text">facebook</a></i>
+                <i class="zmdi zmdi-twitter-box"><a href="https://www.twitter.com/" class="text">twitter</a></i>
+            </div>
+            <div id="fLogoHolder">
+                <a id="logo" href="index.html">adoptMe</a>
+            </div>
+            <div id="fNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="pets.html">pets</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="fBox2">
+            <p class="text">&copy PoparaDesign 2022</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

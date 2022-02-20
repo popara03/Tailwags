@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>adoptMe - Pets</title>
+    <meta name="description" content="Available pets for adoption."/>
+    <meta name="keywords" content="pet, name, breed, location, health, characteristics, owner"/>
+    <link rel="shortcut icon" href="/assets/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <div id="menu-center">
+                <a id="logo" href="index.html">adoptMe</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="pets.html">pets</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <div id="burger">
+                    <div id="line1"></div>
+                    <div id="line2"></div>
+                    <div id="line3"></div>
+                </div>
+            </div>
+        </div>
+        <div id="burgerMenu">
+            <ul>
+                <a href="index.html"><li class="text">About</li></a>
+                <a href="pets.html"><li class="text">Pets</li></a>
+                <a href="contact.html"><li class="text">Contact</li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="tutorial">
+            <p class="text">Press pet card for details</p>
+        </div>
+        <div id="popupContainer">
+            <div id="popup">
+                <div id="sliderBox">
+                    <div id="carouselExampleIndicators">
+                        <div class="carousel-inner">
+                          <div id="s1"></div>
+                          <div id="buttons">
+                            <div class="btns" id="prev">
+                                <i class="zmdi zmdi-chevron-left"></i>
+                            </div>
+                            <div class="btns" id="next">
+                                <i class="zmdi zmdi-chevron-right"></i>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="details">
+                    <div class="info">
+                        <h2 class="title">Name</h2>
+                        <p class="text" id="name">-</p>
+                    </div>
+                    <div class="info">
+                        <h2 class="title">Breed</h2>
+                        <p class="text" id="breed">-</p>
+                    </div>
+                    <div class="info">
+                        <h2 class="title">Location</h2>
+                        <p class="text" id="location">-</p>
+                    </div>
+                    <div class="info">
+                        <h2 class="title">Health</h2>
+                        <p class="text" id="health">-</p>
+                    </div>
+                    <div class="info">
+                        <h2 class="title">Characteristics</h2>
+                        <p class="text" id="character">-</p>
+                    </div>
+                    <div class="info">
+                        <h2 class="title">Owner</h2>
+                        <p class="text" id="owner">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pets-con">
+            <div id="sidebar">
+                <p class="text">If you want to see your pet listed on our website, please fill out this <a href="contact.html">form</a>.</p>
+            </div>
+            <div id="cards">
+                <div class="card" name="Franco">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/franco/franco1.jpg" alt="Franco the dog">
+                    </div>
+                    <p class="text">Franco</p>
+                </div>
+                <div class="card" name="Teddy">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/teddy/teddy1.jpg" alt="Teddy the dog">
+                    </div>
+                    <p class="text">Teddy</p>
+                </div>
+                <div class="card" name="Tracy">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/tracy/tracy1.jpg" alt="Tracy the dog">
+                    </div>
+                    <p class="text">Tracy</p>
+                </div>
+                <div class="card" name="Tex">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/tex/tex1.jpg" alt="Tex the dog">
+                    </div>
+                    <p class="text">Tex</p>
+                </div>
+                <div class="card" name="Macie">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/macie/macie1.jpg" alt="Macie the dog">
+                    </div>
+                    <p class="text">Macie</p>
+                </div>
+                <div class="card" name="Rex">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/rex/rex1.jpg" alt="Rex the dog">
+                    </div>
+                    <p class="text">Rex</p>
+                </div>
+                <div class="card" name="Margot">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/margot/margot1.jpg" alt="Margot the dog">
+                    </div>
+                    <p class="text">Margot</p>
+                </div>
+                <div class="card" name="Blake">
+                    <div class="imgCon">
+                        <img src="/assets/photo/dogs/blake/blake1.jpg" alt="Blake the dog">
+                    </div>
+                    <p class="text">Blake</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="fLogoHolderX"> <!--For mobile layout-->
+            <a id="logo" href="index.html">adoptMe</a>
+        </div>
+        <div id="fBox1">
+            <div id="socialsX"> <!--For mobile layout-->
+                <a href="https://www.instagram.com/" class="text"> <i class="zmdi zmdi-instagram"></i> </a>
+                <a href="https://www.facebook.com/" class="text"> <i class="zmdi zmdi-facebook-box"></i> </a>
+                <a href="https://www.twitter.com/" class="text"> <i class="zmdi zmdi-twitter-box"></i> </a>
+            </div>
+            <div id="socials">
+                <i class="zmdi zmdi-instagram"><a href="https://www.instagram.com/" class="text">instagram</a></i> 
+                <i class="zmdi zmdi-facebook-box"><a href="https://www.facebook.com/" class="text">facebook</a></i>
+                <i class="zmdi zmdi-twitter-box"><a href="https://www.twitter.com/" class="text">twitter</a></i>
+            </div>
+            <div id="fLogoHolder">
+                <a id="logo" href="index.html">adoptMe</a>
+            </div>
+            <div id="fNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="pets.html">pets</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="fBox2">
+            <p class="text">&copy PoparaDesign 2022</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
